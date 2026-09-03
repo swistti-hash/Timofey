@@ -1,7 +1,6 @@
 main{
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -9,11 +8,10 @@ body{
 }
 footer{
     
-    border-bottom:auto;
+    
     
 }
 header{
-    border-top: auto;
 }
 nav{
     display: flex;
