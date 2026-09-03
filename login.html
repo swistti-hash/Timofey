@@ -3,33 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Вход и регестрация</title>
 </head>
 <body>
-    <header>
-<h1>
-    Вход и регистрация
-</h1>
-Регестрация
-    </header>
-    <main>
-       <section>
-        <article>
-            <label for="login">Ваша почта: </label>
-            <input type="email" id="login">
-        </article>
-        <article>
-            <label for="password">Ваш пароль: </label>
-            <input type="password" id="password">
-        </article>
-        
-        <button button type="submit">Отправить </button>
-        
-
-       </section>
-    </main>
-    <footer>
-
-    </footer>
+    <div class="wapper">
+<form action="">
+    <h1>Логин</h1>
+    <div class="input-box">
+    <input type="text" placeholder="Введите логин:" required>
+    </div>
+    <div class="input-box">
+<input type="password" placeholder="Введите пароль:" required>
+    </div>
+    <div class="remember">
+        <label for=""><input type="checkbox"> запомнить</label>
+        <a href="#">Забыл парооль?</a>
+    </div>
+    <button type="submit" class="btn">войти</button>
+</form>
+    </div>
 </body>
 </html>

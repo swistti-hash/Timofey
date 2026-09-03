@@ -39,3 +39,15 @@ article{
   gap: 16px;
   flex-wrap: wrap;
 }
+.login{
+    display: block;
+    margin: 10px 10px;
+   
+    
+}
+label{
+    padding: 10px 10px;
+}
+input{
+    margin: 10px 10 px;
+}
