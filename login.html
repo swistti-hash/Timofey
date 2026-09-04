@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вход и регестрация</title>
+    <title>Вход — Punkt</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,17 +12,21 @@
             Punkt
         </p>
         <nav>
-            <a href="login.html">Войти</a>
-            <a href="#features">Возможности</a>
-            <a href="#how">Как это работает</a>
+            <a href="index.html">На главную</a>
+            <a href="index.html#features">Возможности</a>
+            <a href="index.html#how">Как это работает</a>
         </nav>
     </header>
     <main>
-<div>
-    <form action="" method="post">
+        
+<div class="login-form">
+    <h1>Вход в Punkt</h1>
+    <form action="" method="get">
         <label for="login">Логин: <input name="user-login" type="text" id="login"></label>
         <label for="password">Пароль: <input name="user-password" type="password" id="password"></label>
         <button type="submit"> Войти</button>
+        <label for="remember">Запомнить<input type="checkbox" id="remember"></label>
+        <a href="">Забыл пароль</a>
         
     </form>
 </div>

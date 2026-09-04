@@ -8,12 +8,16 @@ body{
 }
 footer{
     border-top: 1px solid #ccc;
+    position: relative;
+    bottom: 1px;
     
     
     
 }
 header{
     border-bottom: 1px solid #ccc;
+    position: relative;
+    top: 1px;
 }
 nav{
     display: flex;
@@ -40,15 +44,13 @@ article{
   flex-wrap: wrap;
   
 }
-.login{
-    display: block;
-    margin: 10px 10px;
-   
-    
+
+.login-form{
+    max-width: 200px;
+    padding: 20px 20px;
 }
 label{
-    padding: 10px 10px;
+    padding: 15px 15px;
 }
-input{
-    margin: 10px 10 px;
-}
+
+
