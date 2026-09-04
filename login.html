@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вход и регестрация</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="wapper">
-<form action="">
-    <h1>Логин</h1>
-    <div class="input-box">
-    <input type="text" placeholder="Введите логин:" required>
-    </div>
-    <div class="input-box">
-<input type="password" placeholder="Введите пароль:" required>
-    </div>
-    <div class="remember">
-        <label for=""><input type="checkbox"> запомнить</label>
-        <a href="#">Забыл парооль?</a>
-    </div>
-    <button type="submit" class="btn">войти</button>
-</form>
-    </div>
+    <header>
+        <p>
+            Punkt
+        </p>
+        <nav>
+            <a href="login.html">Войти</a>
+            <a href="#features">Возможности</a>
+            <a href="#how">Как это работает</a>
+        </nav>
+    </header>
+    <main>
+<div>
+    <form action="" method="post">
+        <label for="login">Логин: <input name="user-login" type="text" id="login"></label>
+        <label for="password">Пароль: <input name="user-password" type="password" id="password"></label>
+        <button type="submit"> Войти</button>
+        
+    </form>
+</div>
+    </main>
+    <footer>
+<p>2026 Punkt <a href="#">Политика конфиденциальности</a></p>
+</footer>
 </body>
 </html>
