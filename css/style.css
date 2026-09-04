@@ -8,7 +8,7 @@ body{
 }
 footer{
     border-top: 1px solid #ccc;
-    position: relative;
+    position: relativeg;
     bottom: 1px;
     
     
@@ -16,6 +16,7 @@ footer{
 }
 header{
     border-bottom: 1px solid #ccc;
+    
     position: relative;
     top: 1px;
 }
@@ -46,11 +47,27 @@ article{
 }
 
 .login-form{
-    max-width: 200px;
-    padding: 20px 20px;
+    padding: 10px 10px;
+    margin: auto;
+    display:grid;
+    padding-left: 0;
+    
+    justify-content: center;
 }
 label{
-    padding: 15px 15px;
+    padding: 5px 5px;
+}
+form{
+    display:grid;
+    
+}
+input{
+   display: flex;
+}
+.btn{
+    max-width: 50px;
+    justify-content: center;
+    
 }
 
 
